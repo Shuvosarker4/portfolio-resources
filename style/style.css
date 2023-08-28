@@ -46,12 +46,15 @@ nav a{
 /* header style design */
 .header{
     background-color:  #FFF8F3;
-    height: 100vh;
+    /* height: 100vh; */
+    background-image: url("../images/header_bg.png"),url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
 }
 /* banner design */
 .banner{
     display: flex;
-    padding: 30px 45px 30px 165px;
+    padding: 30px 45px 0px 165px;
     align-items: center;
 
 }
